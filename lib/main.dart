@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_infinite_list/block_observation.dart';
-import 'package:flutter_infinite_list/homepage.dart';
+
+import 'Post_bloc/post_bloc.dart';
+import 'Post_bloc/post_events.dart';
+
+import 'bloc/block_observation.dart';
+import 'file:///C:/Users/ola77/AndroidStudioProjects/Posttask/lib/screens/homepage.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'block_post_states/post_bloc.dart';
-import 'block_post_states/post_events.dart';
+
+
 void main() {
   Bloc.observer = SimpleBlocObserver();
   runApp(App());

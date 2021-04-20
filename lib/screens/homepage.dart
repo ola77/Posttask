@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_infinite_list/block_post_states/post_state.dart';
-import 'package:flutter_infinite_list/bottom_loader.dart';
-import 'package:flutter_infinite_list/post_widget.dart';
+import 'package:flutter_infinite_list/Post_bloc/post_bloc.dart';
+import 'package:flutter_infinite_list/Post_bloc/post_events.dart';
+import 'package:flutter_infinite_list/Post_bloc/post_state.dart';
 
-import 'block_post_states/post_bloc.dart';
-import 'block_post_states/post_events.dart';
+import 'package:flutter_infinite_list/widgets/bottom_loader.dart';
+import 'package:flutter_infinite_list/widgets/post_widget.dart';
+
+
 
 class HomePage extends StatefulWidget {
   @override

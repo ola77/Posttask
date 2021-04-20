@@ -1,13 +1,16 @@
 import 'dart:convert';
 
 import 'package:bloc/bloc.dart';
-import 'package:flutter_infinite_list/block_post_states/post_events.dart';
-import 'package:flutter_infinite_list/post.dart';
+import 'package:flutter_infinite_list/Post_bloc/post_events.dart';
+import 'package:flutter_infinite_list/Post_bloc/post_state.dart';
+
+
+
+import 'file:///C:/Users/ola77/AndroidStudioProjects/Posttask/lib/model/post.dart';
 import 'package:meta/meta.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_infinite_list/block_post_states/post_state.dart';
 
 class PostBloc extends Bloc<PostEvent , PostState> {
 

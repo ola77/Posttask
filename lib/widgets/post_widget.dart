@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_infinite_list/post.dart';
+import 'file:///C:/Users/ola77/AndroidStudioProjects/Posttask/lib/model/post.dart';
 
 class PostWidget extends StatelessWidget {
   final Post post;
@@ -11,11 +11,14 @@ class PostWidget extends StatelessWidget {
     return ListTile(
       leading: Text(
         '${post.id}',
-        style: TextStyle(fontSize: 10.0),
       ),
-      title: Text(post.title),
+      title: Text(post.title,
+
+      ),
       isThreeLine: true,
-      subtitle: Text(post.body),
+      subtitle: Text(post.body,
+
+      ),
       dense: true,
     );
   }

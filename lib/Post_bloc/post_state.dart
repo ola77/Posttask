@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:flutter_infinite_list/post.dart';
+import 'file:///C:/Users/ola77/AndroidStudioProjects/Posttask/lib/model/post.dart';
 
 abstract class PostState extends Equatable {
   const PostState();
